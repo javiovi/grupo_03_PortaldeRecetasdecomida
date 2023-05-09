@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    background-color: rgb(250, 255, 181);
+    font-family: 'Poppins';
+    text-align: center;
+}
+.titulo{
+    color:black;
+    text-align:center;
+    font-size: 4em;
+}
+.barra{
+    background-color: #0CB95B99;
+    width: 80%;
+    height: 40%;
+    color: white;
+    
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(to bottom right, #ff8080, #ff2d2d);
+        position: relative;
+        top: 10px;
+      }
+    ul, li, a{
+        border-radius: 10px;
+        margin: 10px;
+        width: 100%;
+        align-items: center;
+        background-color: #0CB95B99;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-decoration: none;
+        height: 3em;
+    }
+
+h2 {
+    padding: 3px;
+    margin-bottom: 10px;
+    }
+    
+#keywordInput {
+    padding: 10px;
+    
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .container img {
+    width: 190px;
+    height: 200px;
+     border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.5s ease-in-out;
+  
+  }
+  .container img:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+ }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px; 
+    background-color: rgb(250, 255, 181);
+    margin: 30px;
+}
+  
+  
+
+    .ftr{
+        background-color: #0CB95B99;
+        color: white;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        box-shadow: 2px -2px 5px #FBB605AB;
+        ;
+    }
+    
