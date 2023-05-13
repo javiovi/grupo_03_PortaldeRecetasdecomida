@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    background-color: rgb(250, 255, 181);
+    font-family: 'Poppins';
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.titulo{
+    color:black;
+    text-align:center;
+    font-size: 4em;
+}
+.barra{
+    background-color: #0CB95B99;
+    width: 80%;
+    height: 40%;
+    color: white;
+    
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(to bottom right, #ff8080, #ff2d2d);
+        position: relative;
+        top: 10px;
+      }
+    ul, li, a{
+        border-radius: 10px;
+        margin: 9px;
+        width:100%;
+        align-items: center;
+        background-color: #0CB95B99;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-decoration: none;
+        height: 3em;
+    
+    }
+
+    .ftr{
+        background-color: #0CB95B99;
+        color: white;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        box-shadow: 2px -2px 5px #FBB605AB;
+        ;
+    }
+
+    .card {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        transition: box-shadow 0.3s; transform:  0.3s;
+        transition-delay: 0.2s;
+        
+      }
+  
+      .card img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+      }
+      .card-content {
+    
+        text-align: center;
+        padding: 25px;
+      }
+     
+      .card h3 {
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        margin: 0;
+      }
+  
+      .card:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        transform: translateY(-10px);
+      }
+  
+      .card a {
+        text-decoration: none;
+        color: inherit;
+      }
+    
