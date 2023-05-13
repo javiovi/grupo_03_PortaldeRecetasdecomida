@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
-    background-color: white;
+    background-color:  rgb(250, 255, 181);
     font-family: 'Poppins';
     text-align: center;
 }
@@ -17,13 +17,14 @@
     color: white;
     }
 .logo{
-    width: 15%;
-    height: 15%;
-    border-radius: 200px;
-    border-width: 2px;
-    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom right, #ff8080, #ff2d2d);
     position: relative;
-    top: 3px;    
+    top: 10px;    
 }
 ul, li, a{
     width: 100%;
