@@ -66,3 +66,27 @@ ul, li, a{
     position: absolute;
     bottom: 0;
 }
+
+.mb {
+    padding: 20px;
+}
+
+.concejo{
+    display: block;
+    text-align: center;
+}
+
+.volver{
+    padding: 20px;
+}
+.red{
+ padding: 100px;
+}
+
+.coc{
+ width: 15%;   
+}
+
+.prox{
+ display: inline;
+ }
