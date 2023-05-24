@@ -41,12 +41,7 @@
       
       .enlace-container a {
         color: blue;
-        text-decoration: none;
-        background-color: rgb(250, 255, 181);
-        width: auto;
-        height: 3em;
-        margin-top: 0px;
-        margin-bottom: 3px;
+      
     }
 
     ul, li, a{
@@ -74,4 +69,22 @@
         ;
     }
 
-   
+    .map-link{
+        color: blue;
+        text-decoration: underline;
+        border-radius: none;
+        background-color: transparent;
+        margin: 10px
+       
+    }
+    .location {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      
+    
+      
+      
+      
+      
+      
