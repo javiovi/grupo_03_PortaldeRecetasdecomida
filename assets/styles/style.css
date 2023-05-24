@@ -63,7 +63,6 @@ ul, li, a{
     display: block;
     text-align: center;
     box-shadow: 2px -2px 5px #FBB605AB;
-    position: absolute;
     bottom: 0;
 }
 
