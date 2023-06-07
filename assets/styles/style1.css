@@ -3,12 +3,6 @@
   .coontainer {
    flex-direction: column;
   }
-  .titulo {
-   order: 2;
-  }
-  .cont{
-   order: 3;
-  }
    .barra {
        width: 90%;
        height: 30%;
@@ -64,8 +58,8 @@
 }
 .barra{
     background-color: #0CB95B99;
-    width: 80%;
-    height: 40%;
+    width: 90%;
+    height: 30%;
     color: white;
     
     }
@@ -81,7 +75,6 @@
       }
     ul, li, a{
    
-        margin: 10px;
         width: 100%;
         align-items: center;
         background-color: #0CB95B99;
