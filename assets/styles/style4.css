@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media screen and (max-width: 460px) {
+   .coontainer {
+    flex-direction: column;
+   }
+
+    .barra {
+        width: 90%;
+        height: 30%;
+    }
+    
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .iUno, .iDos, .iTres {
+        width: 150px;
+        height: 100px;
+        margin-left: 100px;
+    }
+    
+    .ftr {
+        font-size: 12px;
+    }
+    
+    .mb {
+        padding: 10px;
+    }
+    
+    .coc {
+        width: 30%;
+    }
+    h1 {
+        font-size: 24px; 
+        text-align: center; 
+      }
+    
+  }
+  @media screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    li {
+      margin: 5px 0;
+    }
+    
+    a {
+      padding: 5px 10px;
+    }
+  }
+
+*{
+    background-color:  rgb(250, 255, 181);
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.titulo{
+    color:black;
+    text-align:center;
+    font-size: 4em;
+    flex: 1;
+    margin: 10px;
+}
+.barra{
+    background-color: #0CB95B99;
+    width: 90%;
+    height: 30%;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+  
+   }
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom right, #ff8080, #ff2d2d);
+    position: relative;
+    top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul, li, a{
+    
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    align-items: center;
+    background-color: #0CB95B99;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    height: 3em;
+
+  
+}
+
+.container {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;    
+  }
+  
+.ftr{
+    background-color: #0CB95B99;
+    color: white;
+   
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    box-shadow: 2px -2px 5px #FBB605AB;
+    bottom: 0;
+}
+
+.volver{
+    padding: 20px;
+}
+
+.btn.style {
+    background-color: #0CB95B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn.style:hover {
+    background-color: #0CB95B99;
+  }
+  
+  .volver a {
+    background-color: #0CB95B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+    margin: 0 auto;
+
+  }
+  
+  .volver a:hover {
+    background-color: #0CB95B99;
+  }
+
+
+
