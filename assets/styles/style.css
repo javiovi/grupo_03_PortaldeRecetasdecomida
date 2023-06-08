@@ -151,8 +151,17 @@ ul, li, a{
 }
 
 .volver{
-    padding: 20px;
+    
+    background-color: #0CB95B;
+    padding: 2px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
+
 .red{
  padding: 30px;
  
@@ -181,8 +190,7 @@ ul, li, a{
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
-
-    border: none;
+     border: none;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
@@ -192,7 +200,7 @@ ul, li, a{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4caf50;
+    background-color: #0CB95B;
     color: #fff;
     cursor: pointer;
   }
@@ -200,29 +208,80 @@ ul, li, a{
   .login-form button:hover {
     background-color: #45a049;
   }
+  
+.red a {
+  background-color: #0CB95B;
+  display:center;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
 
   .red button {
-    width: 50%;
-    padding: 10px;
-    border: none;
+    padding: 2px 10px;
+    margin-top: 20px;
     border-radius: 5px;
-    background-color:#4caf50;
+    background-color: #0CB95B;
+    font-size: 16px;
     color: #fff;
+    text-decoration: none;
     cursor: pointer;
     
   }
 
-  .btn.style {
-    background-color: #4caf50; 
-    color: #fff; 
+  .red button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .button-style {
+    background-color: #0CB95B;
+    color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .button-style:hover {
+    background-color: #0CB95B99;
   }
   
-  .btn.style:hover {
-    background-color: #45a049; 
+  .mb {
+    margin-bottom: 20px;
   }
- 
   
+  .mb label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .mb input[type="email"],
+  .mb input[type="text"],
+  .mb textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .mb textarea {
+    resize: vertical;
+  }
+  
+  .mb input[type="email"]::placeholder,
+  .mb input[type="text"]::placeholder,
+  .mb textarea::placeholder {
+    color: #999;
+  }
+  
+  .mb input[type="email"]:focus,
+  .mb input[type="text"]:focus,
+  .mb textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
