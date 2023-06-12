@@ -122,6 +122,14 @@ ul, li, a{
     bottom: 0;
 }
 
+.warnings{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #0CB95B;
+  padding-top: 20px;
+}
+
 .volver{
     padding: 20px;
 }
@@ -155,6 +163,4 @@ ul, li, a{
   .volver a:hover {
     background-color: #0CB95B99;
   }
-
-
 

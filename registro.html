@@ -23,38 +23,47 @@
         </nav>
     </header>
     <body>
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" >
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" value="Juan@gmail.com">            
+          </div>
+          <div class="col-md-6">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">            
+          </div>
             <div class="col-md-4">
-              <label for="validationCustom01" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="validationCustom01" value="Juan" required>            </div>
-            <div class="col-md-4">
-              <label for="validationCustom02" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="validationCustom02" value="Perez" required>
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" value="Juan">            
             </div>
             <div class="col-md-4">
-              <label for="validationCustomUsername" class="form-label">Nombre Usuario</label>
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido" value="Perez">
+            </div>
+            <div class="col-md-4">
+              <label for="nombreUsuario" class="form-label">Nombre Usuario</label>
               <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <span class="input-group-text" id="nombreUsuario">@</span>
+                <input type="text" class="form-control" id="nombreUsuario" aria-describedby="inputGroupPrepend">
                 <div class="invalid-feedback">
                   Por favor elija su nombre de ususario.
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-                <label for="formFile" class="form-label">Ingrese su foto de perfil</label>
-                <input class="form-control" type="file" id="formFile">
+                <label for="fotoPerfil" class="form-label">Ingrese su foto de perfil</label>
+                <input class="form-control" type="file" id="fotoPerfil">
             </div>
             <div class="col-md-4">
-              <label for="validationCustom03" class="form-label">Ciudad</label>
-              <input type="text" class="form-control" id="validationCustom03" required>
+              <label for="ciudad" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="ciudad">
               <div class="invalid-feedback">
                 Por favor ingrese su ciudad.
               </div>
             </div>
             <div class="col-md-4">
-              <label for="validationCustom04" class="form-label">Recetas Preferidas</label>
-              <select class="form-select" id="validationCustom04" required>
+              <label for="recetaPreferida" class="form-label">Recetas Preferidas</label>
+              <select class="form-select" id="recetaPreferida">
                 <option>Vegetariana</option>
                 <option>Veganas</option>
                 <option>Celiacas</option>
@@ -68,19 +77,20 @@
               </div>
             </div>
             <div class="col-md-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Escribi algo sobre vos.</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="algoSobreVos" class="form-label">Escribi algo sobre vos.</label>
+                <textarea class="form-control" id="algoSobreVos" rows="3"></textarea>
             </div>
-            <div class="col-12">
-              <button class="btn style" type="submit"><a href="enviado.html">Enviar</a></button>
-            <div class="volver">
-            <a href="index.html">Volver</a>
+            
+              <button class="btn style" type="submit">Enviar</button>
+              <p class="warnings" id="warnings"></p>
+            
+              <div class="volver">
+              <a href="index.html">Volver</a>
           </div>
             </div>
           </form>
   
-      
-          <script src="validaciones.js"></script> 
+      <script src="validaciones.js"></script> 
         </body>
     <footer>
         <h2 class="ftr">Grupo03  soldrh  PedroOjeda2709  javiovi © 2023</h2>
