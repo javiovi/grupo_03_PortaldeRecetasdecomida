@@ -23,7 +23,7 @@
         </nav>
     </header>
     <body>
-        <form class="row g-3 needs-validation" >
+        <form id="form" class="row g-3" novalidate>
           <div class="col-md-6">
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control" id="email" value="Juan@gmail.com">            
@@ -44,7 +44,7 @@
               <label for="nombreUsuario" class="form-label">Nombre Usuario</label>
               <div class="input-group has-validation">
                 <span class="input-group-text" id="nombreUsuario">@</span>
-                <input type="text" class="form-control" id="nombreUsuario" aria-describedby="inputGroupPrepend">
+                <input type="text" class="form-control" id="nombreUsuarioInput" aria-describedby="inputGroupPrepend">
                 <div class="invalid-feedback">
                   Por favor elija su nombre de ususario.
                 </div>
